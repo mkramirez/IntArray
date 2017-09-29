@@ -25,6 +25,7 @@ IntArray::IntArray(int size){
 }
 
 IntArray::~IntArray(){
+    delete [] data;
 }
 
 int & IntArray::operator[](int i) const {
